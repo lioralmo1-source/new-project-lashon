@@ -233,6 +233,46 @@ button,.tab-btn{min-height:44px;touch-action:manipulation}
     </div>
   </div>
 
+  <div class="card" style="border-top:4px solid var(--danger)">
+    <h2 class="s-title" style="color:var(--danger)">💣 מוקש! — ־וּת: סיומת או חלק מהשורש?</h2>
+    <p style="font-size:.92rem;color:var(--mid);margin-bottom:.9rem">הסיומת <strong>-וּת</strong> מופיעה בשני הקשרים שונים לחלוטין — וקל מאוד להתבלבל:</p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:1rem">
+      <div style="background:#e6f7f5;border:1.5px solid var(--teal);border-radius:12px;padding:1rem">
+        <div style="font-weight:800;color:var(--teal);font-size:.88rem;margin-bottom:.4rem">✅ בסיס + סיומת -וּת</div>
+        <div style="font-size:.88rem;color:var(--mid);line-height:1.8">
+          <strong>עִתּוֹנָאוּת</strong> = עִתּוֹן<span style="color:var(--teal);font-weight:800"> + אַי </span>+ <span style="color:var(--teal);font-weight:800">-וּת</span><br>
+          הבסיס <span class="wchip teal">עִיתּוֹן</span> הוא מילה עצמאית.<br>
+          <em>מבחן:</em> הורד -וּת → מקבלים "עיתונאי" (מילה!)
+        </div>
+      </div>
+      <div style="background:#e7f3ff;border:1.5px solid var(--navy-lt);border-radius:12px;padding:1rem">
+        <div style="font-weight:800;color:var(--navy-lt);font-size:.88rem;margin-bottom:.4rem">⚠️ שורש + משקל (מַלְכוּת)</div>
+        <div style="font-size:.88rem;color:var(--mid);line-height:1.8">
+          <strong>מַלְכוּת</strong> = שורש <span class="hl-n">מ-ל-כ</span> + משקל <span class="hl-n">קַטְלוּת</span><br>
+          ה-<strong>וּת</strong> כאן <em>חלק מהמשקל</em>, לא סיומת נפרדת.<br>
+          <em>מבחן:</em> הורד -וּת → "מלכ"? לא מילה עצמאית.
+        </div>
+      </div>
+    </div>
+
+    <div class="tb danger">
+      <div class="bt">🔑 כלל הזיהוי</div>
+      <p style="font-size:.9rem;line-height:1.9">
+        הורידו את -וּת מסוף המילה:<br>
+        ✅ נשארה מילה עצמאית? → <strong>בסיס + סיומת</strong> (עיתונאות → עיתונאי ✓)<br>
+        ❌ לא נשארה מילה? → <strong>שורש + משקל</strong> (מלכות → "מלכ" ✗)
+      </p>
+    </div>
+
+    <div style="font-size:.85rem;color:var(--mid);margin-top:.5rem;padding:.7rem 1rem;background:var(--s2);border-radius:10px">
+      <strong>עוד דוגמאות:</strong><br>
+      <span class="wchip teal">אַחְוָאוּת</span> (אחוות → אחוה ✓ → בסיס+סיומת) &nbsp;|&nbsp;
+      <span class="wchip">נְבִיאוּת</span> (נבי → "נבי" ✓ = נביא → בסיס+סיומת) &nbsp;|&nbsp;
+      <span class="wchip">כְּהוּנָה</span> (כהן → משקל קְהוּנָה, ה-וּנ חלק ממשקל)
+    </div>
+  </div>
+
 </div><!-- /th -->
 
 <!-- ════════════════════════════════
@@ -300,16 +340,16 @@ button,.tab-btn{min-height:44px;touch-action:manipulation}
     <div id="q4-err" class="fb-err">❌ לא נכון. "מספר" אינה בסיס כשר כי גם היא שורש+משקל. מִסְפָּרָה = שורש ס-פ-ר + מִקְטָלָה.</div>
   </div>
 
-  <!-- Q5 -->
+  <!-- Q5 — מילה לועזית -->
   <div class="q-card">
-    <div style="font-weight:700;color:var(--navy);margin-bottom:.5rem">שאלה 5 — <span class="wchip teal">יַלְדוּת</span> — תפקיד סיומת</div>
-    <p style="font-size:.9rem;color:var(--mid);margin-bottom:.8rem">מה תפקיד הסיומת -וּת?</p>
-    <div onclick="pickMC('q5','a','wrong')" class="mc-opt"><input type="radio" name="q5" value="a">מקצוע</div>
-    <div onclick="pickMC('q5','b','wrong')" class="mc-opt"><input type="radio" name="q5" value="b">הקטנה</div>
-    <div onclick="pickMC('q5','c','correct')" class="mc-opt"><input type="radio" name="q5" value="c">תכונה / מצב מופשט</div>
-    <div onclick="pickMC('q5','d','wrong')" class="mc-opt"><input type="radio" name="q5" value="d">מקום</div>
-    <div id="q5-ok" class="fb-ok">✅ נכון! -וּת = תכונה/מצב מופשט. יַלְדוּת, חַבְרוּת, עַצְמָאוּת, אֶזְרָחוּת.</div>
-    <div id="q5-err" class="fb-err">❌ לא נכון. -וּת = תכונה/מצב מופשט. "יַלְדוּת" = מצב של היות ילד.</div>
+    <div style="font-weight:700;color:var(--navy);margin-bottom:.5rem">שאלה 5 — <span class="wchip purple">טֶלֶפוֹן</span> — מילה לועזית</div>
+    <p style="font-size:.9rem;color:var(--mid);margin-bottom:.8rem">הסיומת <strong>-וֹן</strong> בסוף טֶלֶפוֹן — מה מקורה ומשמעותה כאן?</p>
+    <div onclick="pickMC('q5','a','wrong')" class="mc-opt"><input type="radio" name="q5" value="a">סיומת עברית של הקטנה (כמו מַחְשְׁבוֹן)</div>
+    <div onclick="pickMC('q5','b','wrong')" class="mc-opt"><input type="radio" name="q5" value="b">בסיס "טלפ" + סיומת עברית -וֹן</div>
+    <div onclick="pickMC('q5','c','correct')" class="mc-opt"><input type="radio" name="q5" value="c">המילה כולה היא השאלה מיוונית — ה-ון חלק מהמילה הזרה, לא סיומת עברית</div>
+    <div onclick="pickMC('q5','d','wrong')" class="mc-opt"><input type="radio" name="q5" value="d">שורש ט-ל-פ + משקל תַּקְטִיל</div>
+    <div id="q5-ok" class="fb-ok">✅ נכון! טֶלֶפוֹן היא <strong>השאלה</strong> מיוונית (tele + phone). ה-"ון" בסוף הוא חלק מהמילה הזרה ולא סיומת עברית. <br>זאת לעומת מַחְשְׁבוֹן שבה -וֹן <em>כן</em> סיומת עברית של הקטנה שנוספה לבסיס עברי.</div>
+    <div id="q5-err" class="fb-err">❌ לא נכון. טֶלֶפוֹן = השאלה שלמה מיוונית. לא ניתן לפרקה לשורש/בסיס + סיומת עברית. ה-"ון" אינו הסיומת העברית -וֹן.</div>
   </div>
 
   <!-- Q6 -->
@@ -398,16 +438,16 @@ button,.tab-btn{min-height:44px;touch-action:manipulation}
     <div id="q12-err" class="fb-err">❌ לא נכון. נַגָּרִיָּה = בסיס נַגָּר + -ִיָּה. ה"בסיס" כאן הוא מילה שלמה (נגר), לא שורש עירום.</div>
   </div>
 
-  <!-- Q13 -->
+  <!-- Q13 — נוטריקון -->
   <div class="q-card">
-    <div style="font-weight:700;color:var(--navy);margin-bottom:.5rem">שאלה 13 — <span class="wchip">דַּלֶּקֶת</span> — משמעות</div>
-    <p style="font-size:.9rem;color:var(--mid);margin-bottom:.8rem">דַּלֶּקֶת שייכת למשקל קַטֶּלֶת. מה קטגוריית המשמעות?</p>
-    <div onclick="pickMC('q13','a','wrong')" class="mc-opt"><input type="radio" name="q13" value="a">בעל מקצוע</div>
-    <div onclick="pickMC('q13','b','wrong')" class="mc-opt"><input type="radio" name="q13" value="b">מקום</div>
-    <div onclick="pickMC('q13','c','correct')" class="mc-opt"><input type="radio" name="q13" value="c">מחלה / קבוצה</div>
-    <div onclick="pickMC('q13','d','wrong')" class="mc-opt"><input type="radio" name="q13" value="d">מכשיר</div>
-    <div id="q13-ok" class="fb-ok">✅ נכון! קַטֶּלֶת = מחלה/קבוצה. דַּלֶּקֶת (ד-ל-ק), שַׁעֶלֶת (שׁ-ע-ל), חֲצֶבֶת, שַׁפַּעַת.</div>
-    <div id="q13-err" class="fb-err">❌ לא נכון. קַטֶּלֶת = מחלה/קבוצה. דַּלֶּקֶת = מחלת דלקת.</div>
+    <div style="font-weight:700;color:var(--navy);margin-bottom:.5rem">שאלה 13 — <span class="wchip amber">נוטריקון</span> — דרך תצורה מיוחדת</div>
+    <p style="font-size:.9rem;color:var(--mid);margin-bottom:.8rem">המילה <strong>מַנְכַּ"ל</strong> נוצרה מראשי התיבות: <em>מנהל כללי</em>. כיצד נקראת דרך תצורה זו?</p>
+    <div onclick="pickMC('q13','a','wrong')" class="mc-opt"><input type="radio" name="q13" value="a">שורש + משקל (שורש מ-נ-כ)</div>
+    <div onclick="pickMC('q13','b','wrong')" class="mc-opt"><input type="radio" name="q13" value="b">בסיס + סיומת (-כל הסיומת)</div>
+    <div onclick="pickMC('q13','c','correct')" class="mc-opt"><input type="radio" name="q13" value="c">נוטריקון — ראשי תיבות שהפכו למילה</div>
+    <div onclick="pickMC('q13','d','wrong')" class="mc-opt"><input type="radio" name="q13" value="d">השאלה מלועזית</div>
+    <div id="q13-ok" class="fb-ok">✅ נכון! <strong>נוטריקון</strong> (notarikon) = דרך תצורה שבה ראשי תיבות הופכים למילה חדשה. מַנְכַּ"ל (מנהל כ"לי), מַשְׁכַּ"ן (משכנות עובדים לאומי), מַדָּ"ן (מדע וטכנולוגיה). זו דרך ייחודית שאינה שורש+משקל ואינה בסיס+סיומת.</div>
+    <div id="q13-err" class="fb-err">❌ לא נכון. מַנְכַּ"ל = <strong>נוטריקון</strong> — ראשי תיבות שהפכו למילה. זו דרך תצורה שלישית שחשוב להכיר לבגרות.</div>
   </div>
 
   <!-- Q14 -->
@@ -473,7 +513,7 @@ button,.tab-btn{min-height:44px;touch-action:manipulation}
 
     <div class="ai danger"><strong>שאלה 4 — מִסְפָּרָה (מלכודת):</strong> ב׳ — שורש ס-פ-ר + מִקְטָלָה, לא בסיס+סיומת.<br><em style="font-size:.82rem;color:var(--muted)">שגיאה נפוצה ביותר! הדגישו שהמ׳ = אות משקל.</em></div>
 
-    <div class="ai purple"><strong>שאלה 5 — יַלְדוּת:</strong> ג׳ — תכונה/מצב מופשט (-וּת).<br><em style="font-size:.82rem;color:var(--muted)">-וּת = קטגוריה מיוחדת: עצם מופשט. לא ניתן "לגעת" ביַלְדוּת.</em></div>
+    <div class="ai purple"><strong>שאלה 5 — טֶלֶפוֹן (לועזית):</strong> ג׳ — השאלה מיוונית שלמה. ה-"ון" אינו הסיומת העברית.<br><em style="font-size:.82rem;color:var(--muted)">הבחנה חשובה: טלפון ≠ מחשבון. ב-מחשבון ה-וֹן סיומת עברית; בטלפון — חלק ממילה זרה.</em></div>
 
     <div class="ai"><strong>שאלה 6 — שְׁמִירָה:</strong> ב׳ — שם פעולה (קְטִילָה). שורש שׁ-מ-ר.<br><em style="font-size:.82rem;color:var(--muted)">קְטִילָה = הפעולה עצמה, לא מי שמבצע.</em></div>
 
@@ -493,7 +533,7 @@ button,.tab-btn{min-height:44px;touch-action:manipulation}
 
     <div class="ai"><strong>שאלה 12 — נַגָּרִיָּה בטקסט:</strong> ב׳ — בסיס נַגָּר + -ִיָּה.<br><em style="font-size:.82rem;color:var(--muted)">הבסיס (נגר) עצמו שורש+משקל — אבל נגרייה היא בסיס+סיומת!</em></div>
 
-    <div class="ai danger"><strong>שאלה 13 — דַּלֶּקֶת:</strong> ג׳ — מחלה/קבוצה (קַטֶּלֶת).<br><em style="font-size:.82rem;color:var(--muted)">קַטֶּלֶת = קטגוריה ייחודית לעברית. שׁ-ע-ל → שַׁעֶלֶת.</em></div>
+    <div class="ai amber"><strong>שאלה 13 — נוטריקון (מַנְכַּ"ל):</strong> ג׳ — ראשי תיבות שהפכו למילה.<br><em style="font-size:.82rem;color:var(--muted)">נוטריקון = דרך תצורה שלישית בעברית. חשוב לציין אותה בנפרד בבגרות.</em></div>
 
     <div class="ai green"><strong>שאלה 14 — יצירת מילה:</strong> א׳ וב׳ שתיהן נכונות.<br><em style="font-size:.82rem;color:var(--muted)">שאלה פתוחה מכוונת — מראה שעברית גמישה!</em></div>
 
