@@ -718,12 +718,14 @@ a { text-decoration:none; }
 ══════════════════════════════════════════════════ */
 #settings-overlay {
   position:fixed; inset:0; z-index:1000;
-  background:rgba(0,0,0,.5); backdrop-filter:blur(6px);
+  background:rgba(0,0,0,.55);
   display:none; align-items:center; justify-content:center;
   padding:1.2rem;
+  -webkit-overflow-scrolling:touch;
 }
 #settings-overlay.open { display:flex; }
 #settings-modal {
+  isolation:isolate;
   background:var(--surface); border:1px solid var(--border);
   border-radius:var(--r-xl); width:100%; max-width:430px;
   box-shadow:0 8px 32px rgba(0,0,0,.2), 0 32px 80px rgba(0,0,0,.3);
@@ -900,9 +902,10 @@ a { text-decoration:none; }
 ══════════════════════════════════════════════════ */
 #student-settings-overlay {
   position:fixed; inset:0; z-index:1000;
-  background:rgba(0,0,0,.5); backdrop-filter:blur(6px);
+  background:rgba(0,0,0,.55);
   display:none; align-items:center; justify-content:center;
   padding:1.2rem;
+  -webkit-overflow-scrolling:touch;
 }
 #student-settings-overlay.open { display:flex; }
 #student-settings-modal {
