@@ -1,1 +1,1 @@
-# project-for-high-school
+# פרויקט לשון
